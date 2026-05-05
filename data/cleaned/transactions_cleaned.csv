@@ -1,0 +1,7 @@
+transaction_id,customer_id,transaction_date,channel,status,amount,cost,gross_profit
+T001,C001,2024-02-01,Web,Completed,120,70,50
+T002,C002,2024-02-03,Mobile,Completed,80,40,40
+T003,C003,2024-02-05,Store,Returned,200,130,70
+T004,C004,2024-02-07,Web,Completed,150,90,60
+T005,C005,2024-02-09,Partner,Cancelled,60,30,30
+T010,C003,2024-02-21,Web,Completed,160,100,60

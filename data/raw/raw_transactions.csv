@@ -1,0 +1,12 @@
+transaction_id,customer_id,transaction_date,channel,status,amount,cost
+T001,C001,2024-02-01,Web,Completed,120,70
+T002,C002,2024-02-03,Mobile,Completed,80,40
+T003,C003,2024-02-05,Store,Returned,200,130
+T004,C004,2024-02-07,Web,Completed,150,90
+T005,C005,2024-02-09,Partner,Cancelled,60,30
+T006,C006,2024-02-12,Store,Completed,-20,10
+T007,C999,2024-02-14,Web,Completed,110,65
+T008,C002,not_a_date,Mobile,Completed,90,50
+T009,C003,2024-02-18,Social,Completed,130,80
+T010,C003,2024-02-20,Web,Unknown,140,90
+T010,C003,2024-02-21,Web,Completed,160,100

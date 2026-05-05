@@ -1,0 +1,9 @@
+customer_id,customer_name,email,signup_date,segment,province
+C001,Ava Chen,ava.chen@example.com,2024-01-05,Returning,ON
+C002,Noah Smith,noah.smith@example.com,2024-01-08,New,BC
+C003,Mia Wong,mia.wong@example.com,2024-01-11,High Value,ON
+C004,Lucas Brown,,2024-01-14,Returning,AB
+C005,Emma Lee,emma.lee@example.com,2024-01-18,New,QC
+C006,Liam Zhao,liam.zhao@example.com,2024-02-01,VIP,ON
+C007,Sophia Kim,sophia.kim@example.com,bad_date,Returning,NS
+C007,Sophia Kim,sophia.kim@example.com,2024-02-03,Returning,NS
