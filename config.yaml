@@ -1,0 +1,14 @@
+validation:
+  valid_segments:
+    - New
+    - Returning
+    - High Value
+  valid_channels:
+    - Web
+    - Mobile
+    - Store
+    - Partner
+  valid_statuses:
+    - Completed
+    - Returned
+    - Cancelled

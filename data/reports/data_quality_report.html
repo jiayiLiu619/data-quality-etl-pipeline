@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Quality Report</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 40px; color: #333; }
+  h1 { color: #2c3e50; }
+  h2 { color: #2980b9; margin-top: 30px; }
+  table { border-collapse: collapse; width: 480px; margin-bottom: 20px; }
+  th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+  th { background: #2980b9; color: white; }
+  .summary { background: #ecf0f1; padding: 16px; border-radius: 6px; width: 460px; }
+  .good { color: #27ae60; font-weight: bold; }
+  .warn { color: #e67e22; font-weight: bold; }
+</style>
+</head>
+<body>
+<h1>Data Quality Report</h1>
+<p>Generated: 2026-05-06 13:22:51</p>
+
+<div class="summary">
+  <strong>Pipeline Summary</strong><br><br>
+  Customers: 10,000 raw → 8,000 cleaned
+  &nbsp;<span class="warn">(80.0% pass rate)</span><br>
+  Transactions: 50,000 raw → 28,343 cleaned
+  &nbsp;<span class="warn">(56.7% pass rate)</span>
+</div>
+
+<h2>Customer Issues</h2>
+<table>
+  <tr><th>Check</th><th>Count</th></tr>
+  <tr><td>total_rows</td><td>10000</td></tr>
+<tr><td>missing_customer_id</td><td>500</td></tr>
+<tr><td>missing_email</td><td>500</td></tr>
+<tr><td>duplicate_customer_id</td><td>999</td></tr>
+<tr><td>invalid_signup_date</td><td>500</td></tr>
+<tr><td>invalid_segment</td><td>500</td></tr>
+</table>
+
+<h2>Transaction Issues</h2>
+<table>
+  <tr><th>Check</th><th>Count</th></tr>
+  <tr><td>total_rows</td><td>50000</td></tr>
+<tr><td>missing_transaction_id</td><td>0</td></tr>
+<tr><td>duplicate_transaction_id</td><td>2500</td></tr>
+<tr><td>invalid_transaction_date</td><td>2500</td></tr>
+<tr><td>invalid_channel</td><td>2500</td></tr>
+<tr><td>invalid_status</td><td>2500</td></tr>
+<tr><td>negative_amount</td><td>2500</td></tr>
+<tr><td>unknown_customer_id</td><td>7307</td></tr>
+</table>
+
+</body>
+</html>

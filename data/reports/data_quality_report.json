@@ -1,28 +1,28 @@
 {
     "raw_customers": {
-        "total_rows": 8,
-        "missing_customer_id": 0,
-        "missing_email": 1,
-        "duplicate_customer_id": 1,
-        "invalid_signup_date": 1,
-        "invalid_segment": 1
+        "total_rows": 10000,
+        "missing_customer_id": 500,
+        "missing_email": 500,
+        "duplicate_customer_id": 999,
+        "invalid_signup_date": 500,
+        "invalid_segment": 500
     },
     "raw_transactions": {
-        "total_rows": 11,
+        "total_rows": 50000,
         "missing_transaction_id": 0,
-        "duplicate_transaction_id": 1,
-        "invalid_transaction_date": 1,
-        "invalid_channel": 1,
-        "invalid_status": 1,
-        "negative_amount": 1,
-        "unknown_customer_id": 1
+        "duplicate_transaction_id": 2500,
+        "invalid_transaction_date": 2500,
+        "invalid_channel": 2500,
+        "invalid_status": 2500,
+        "negative_amount": 2500,
+        "unknown_customer_id": 7307
     },
     "cleaned_customers": {
-        "total_rows": 6,
-        "removed_rows": 2
+        "total_rows": 8000,
+        "removed_rows": 2000
     },
     "cleaned_transactions": {
-        "total_rows": 6,
-        "removed_rows": 5
+        "total_rows": 28343,
+        "removed_rows": 21657
     }
 }
